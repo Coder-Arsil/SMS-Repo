@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: calibri;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+nav button {
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: yellow;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+nav button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.user-info {
+    margin: 0px auto;
+    background-color: #ccc;
+    padding: 25px 25px;
+}
+
+table {
+    width: 100% !important;
+}
+
+tr td {
+    border: 1px solid black;
+    padding: 0 0px;
+}
+
+section {
+    width: 99% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.col {
+    width: 100% !important;
+    /* height: 100vh; */
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.op h1 {
+    border-bottom: 1px dashed black;
+    padding: 15px 0;
+}
+
+.op p {
+    font-size: 25px;
+}
